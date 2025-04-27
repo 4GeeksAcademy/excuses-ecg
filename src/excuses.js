@@ -1,5 +1,3 @@
-import "bootstrap";
-import "./style.css";
 window.onload = function() {
 
   let randomNumber = Math.random() * 10;
@@ -9,7 +7,7 @@ console.log("Hello Rigo from the console!");
 };
 
 let generateExcuse = () => { 
-let person = ["my dog", "my grandma", "my turtle", "my mom"];
+let person = ["my dog", "my grandma", "my turtle", "my dad"];
 let action = ["ate", "forgot", "stole", "broke"];
 let object = ["my homework", "my exam", "my backpack", "my folder"];
 let when= ["yesterday", "last night", "this morning", "a while ago"];
